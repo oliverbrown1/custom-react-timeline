@@ -1,7 +1,5 @@
 "use client"
-import Elements from "./components/Elements.js"
 import Timeline from "./Timeline.js"
-import React, { useState, useEffect, useRef } from 'react';
 
 export default function Home() {
   const dates =  ["2012","2013","2015","2018","2019","2020","2022","2024","2025"]
@@ -16,11 +14,15 @@ export default function Home() {
     "By 2024, Company X introduced a new AI-powered platform, disrupting the market and attracting new clients.",
     "In 2025, Company X celebrated its 13th anniversary, cementing its position as a market leader."
   ];
+  // const dates = ["2012","2013"]
+  // const content = ["hi","yes"]
   
  
 
 
   return (
-    <Timeline dates={dates} content={content} spacing={20}></Timeline>
+    <div className="h-full w-full inset-0">
+      <Timeline dates={dates} content={content} spacing={20} marker_heights={[50,27]} main_colors={["#2d5f8d","#6ca09c"]} styles={{fontSize : "15px", fontFamily : `Roboto, sans-serif`, backgroundColor : "#f8f8f8", color: "black"}} ></Timeline>
+    </div>
   );
 }
