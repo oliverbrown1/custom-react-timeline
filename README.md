@@ -1,3 +1,5 @@
+<img src="https://github.com/oliverbrown1/custom-react-timeline/blob/main/assets/demo.mov" width="960" height="540" />
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
