@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 // import RevealOnScroll from "../effects/RevealOnScroll.js"
 import { AnimatePresence, motion } from "motion/react"

@@ -1,5 +1,5 @@
 "use client"
-import Timeline from "./Timeline.js"
+import HorizontalTimeline from "./Timeline.js"
 
 export default function Home() {
   const dates =  ["2012","2013","2015","2018","2019","2020","2022","2024","2025"]
@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className="h-full w-full inset-0">
-      <Timeline dates={dates} content={content} spacing={20} marker_heights={[50,27]} main_colors={["#2d5f8d","#6ca09c"]} styles={{fontSize : "15px", fontFamily : `Roboto, sans-serif`, backgroundColor : "#f8f8f8", color: "black"}} ></Timeline>
+      <HorizontalTimeline dates={dates} content={content} spacing={20} marker_heights={[50,27]} main_colors={["#2d5f8d","#6ca09c"]} styles={{fontSize : "15px", fontFamily : `Roboto, sans-serif`, backgroundColor : "#f8f8f8", color: "black"}} ></HorizontalTimeline>
     </div>
   );
 }

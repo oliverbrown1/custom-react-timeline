@@ -1,5 +1,5 @@
 {
-  "name": "timeline",
+  "name": "custom-horizontal-timeline-react",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,5 +20,24 @@
     "eslint": "^9",
     "eslint-config-next": "15.2.3",
     "tailwindcss": "^4"
-  }
+  },
+  "description": "<img src=\"https://github.com/oliverbrown1/custom-react-timeline/blob/main/assets/demo.mov\" width=\"960\" height=\"540\" />",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverbrown1/custom-react-timeline.git"
+  },
+  "keywords": [
+    "react",
+    "timeline",
+    "horizontal",
+    "component",
+    "customisable"
+  ],
+  "author": "oliverbrown1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliverbrown1/custom-react-timeline/issues"
+  },
+  "homepage": "https://github.com/oliverbrown1/custom-react-timeline#readme"
 }

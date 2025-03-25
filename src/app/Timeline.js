@@ -1,8 +1,8 @@
 "use client"
-import Elements from "./components/Elements.js"
+import Elements from "./Elements.js"
 import React, { useState, useEffect, useRef } from 'react';
 
-export default function Timeline({spacing, dates, content, marker_heights, main_colors, styles}) {
+export default function HorizontalTimeline({spacing, dates, content, marker_heights, main_colors, styles}) {
   const [timelineWidth, setTimelineWidth] = useState(0);
   const containerRef = useRef(null);
 
