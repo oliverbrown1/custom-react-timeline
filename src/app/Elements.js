@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useRef, useState } from "react";
 import ElementContent from "./ElementContent.js"
 import { motion } from "motion/react"
@@ -21,7 +22,7 @@ export default function Elements({dates, content, spacing, main_colors, marker_h
                         {index % 2 === 0 && <div className="flex flex-col items-center"> 
                             <div className="absolute -top-1 border-6 border-gray-700 z-10"></div>
                             {/* vertical line below me */}
-                            <div className="absolute w-1" style={{height : `${4*marker_heights[1]}px;`, backgroundColor : `${main_colors[0]}`}}></div>
+                            <div className="absolute w-1" style={{height : `${4*marker_heights[1]}px`, backgroundColor : `${main_colors[0]}`}}></div>
                             <div className="rounded-full border-4" style={{transform : `translateY(${4*marker_heights[1]}px)`, borderColor: `${main_colors[0]}`}}></div>
                             <div style={{transform : `translateY(${4*marker_heights[1]}px)`}}><ElementContent date={date} main_colors={main_colors} content={content[index]} position={"below"}/></div>
                         </div>}
@@ -29,7 +30,7 @@ export default function Elements({dates, content, spacing, main_colors, marker_h
                             <div className="flex flex-col items-center">
                                 <div style={{transform : `translateY(-${4*(marker_heights[0]+7)}px)`}}><ElementContent date={date} main_colors={main_colors} content={content[index]} position ={"above"}/></div>
                                 <div className="absolute rounded-full border-4 border-slate-500" style={{transform : `translateY(-${4*(marker_heights[0])}px)`, borderColor: `${main_colors[0]}`}}></div>
-                                <div className="absolute -translate-y-full w-1" style={{height : `${4*marker_heights[0]}px;`, backgroundColor : `${main_colors[0]}`}}></div>
+                                <div className="absolute -translate-y-full w-1" style={{height : `${4*marker_heights[0]}px`, backgroundColor : `${main_colors[0]}`}}></div>
                                 <div className="absolute -top-1 border-6 border-gray-700"></div>
                             </div>
                         </div>}

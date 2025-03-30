@@ -4,7 +4,12 @@ A highly-customisable React component I designed. See below:
 
 <img src="https://github.com/oliverbrown1/custom-react-timeline/blob/main/assets/demo_gif.gif" width="960" height="540" />
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Made with React, Next.js, Tailwind CSS, and Framer Motion.
+
+
+## Installation
+
+WIP. To be made into an npm package. 
 
 ## Getting Started
 

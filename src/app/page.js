@@ -14,11 +14,6 @@ export default function Home() {
     "By 2024, Company X introduced a new AI-powered platform, disrupting the market and attracting new clients.",
     "In 2025, Company X celebrated its 13th anniversary, cementing its position as a market leader."
   ];
-  // const dates = ["2012","2013"]
-  // const content = ["hi","yes"]
-  
- 
-
 
   return (
     <div className="h-full w-full inset-0">
